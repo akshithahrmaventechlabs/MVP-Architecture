@@ -7,15 +7,12 @@
 package com.example.dalvikmovies.movie_details;
 
 import android.util.Log;
-
 import com.example.dalvikmovies.model.Movie;
 import com.example.dalvikmovies.network.ApiClient;
 import com.example.dalvikmovies.network.ApiInterface;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
 import static com.example.dalvikmovies.network.ApiClient.API_KEY;
 import static com.example.dalvikmovies.utils.Constants.CREDITS;
 

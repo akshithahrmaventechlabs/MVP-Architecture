@@ -19,8 +19,10 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.dalvikmovies.R;
+import com.example.dalvikmovies.movie_list.MovieListActivity;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Calendar;
@@ -189,9 +191,18 @@ public class MovieFilterActivity extends AppCompatActivity {
         }
     }
 
-    @Override
+        @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
     }
+//    @Override
+//    public boolean onSupportNavigateUp() {
+//        // Override the back button behavior
+//        Intent intent = new Intent(this, MovieListActivity.class);
+//        startActivity(intent);
+//        Toast.makeText(getApplicationContext(), " Press Back again to Exit ", Toast.LENGTH_SHORT).show();
+//        finish(); // Optional: Call finish to remove this activity from the stack
+//        return true;
+//    }
 }

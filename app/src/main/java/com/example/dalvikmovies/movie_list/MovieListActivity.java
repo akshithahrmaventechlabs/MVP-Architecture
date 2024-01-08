@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
 import com.example.dalvikmovies.R;
 import com.example.dalvikmovies.adapter.MoviesAdapter;
 import com.example.dalvikmovies.model.Movie;
@@ -17,16 +15,13 @@ import com.example.dalvikmovies.movie_details.MovieDetailsActivity;
 import com.example.dalvikmovies.movie_filter.MovieFilterActivity;
 import com.example.dalvikmovies.utils.GridSpacingItemDecoration;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static com.example.dalvikmovies.utils.Constants.ACTION_MOVIE_FILTER;
 import static com.example.dalvikmovies.utils.Constants.KEY_MOVIE_ID;
 import static com.example.dalvikmovies.utils.Constants.KEY_RELEASE_FROM;
 import static com.example.dalvikmovies.utils.Constants.KEY_RELEASE_TO;
 import static com.example.dalvikmovies.utils.GridSpacingItemDecoration.dpToPx;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -89,7 +84,7 @@ public class MovieListActivity extends AppCompatActivity implements MovieListCon
 
         fabFilter = findViewById(R.id.fab_filter);
 
-        tvEmptyView = findViewById(R.id.tv_empty_view);
+//        tvEmptyView = findViewById(R.id.tv_empty_view);
     }
 
     private void setListeners() {
