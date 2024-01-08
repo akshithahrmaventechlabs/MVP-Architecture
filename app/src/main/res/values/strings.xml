@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Movies Dalvik</string>
+    <string name="app_name">MVP</string>
     <string name="communication_error">Error in getting data. Please try again later.</string>
-    <string name="most_popular_movies">Most Popular Movies</string>
+    <string name="most_popular_movies">Movie</string>
     <string name="overview">Overview</string>
     <string name="top_billed_cast">Top Billed Cast</string>
     <string name="details">Details</string>

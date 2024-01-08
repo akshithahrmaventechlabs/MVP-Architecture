@@ -50,7 +50,6 @@
                 android:paddingLeft="@dimen/card_content_padding"
                 android:paddingRight="@dimen/card_content_padding"
                 android:paddingTop="@dimen/card_content_padding"
-                android:textColor="@color/colorTitle"
                 android:textSize="@dimen/movie_title_size"
                 android:typeface="sans" />
 
@@ -79,6 +78,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
                     android:layout_weight="0.3"
+                    android:maxLines="1"
+                    android:minLines="1"
                     android:drawableLeft="@drawable/star"
                     android:drawablePadding="5dp"
                     android:gravity="center_vertical"

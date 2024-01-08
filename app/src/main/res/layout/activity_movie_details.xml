@@ -5,7 +5,7 @@
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+
     android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -37,6 +37,7 @@
                     android:fitsSystemWindows="true"
                     android:scaleType="centerCrop"
                     app:layout_collapseMode="parallax"
+                    android:layout_marginBottom="10dp"
                     android:contentDescription="Hold movie backdrop image" />
 
                 <ProgressBar
@@ -55,7 +56,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:padding="5dp"
-                    android:textColor="@android:color/white"
                     android:textSize="@dimen/detail_movie_title" />
 
             </RelativeLayout>

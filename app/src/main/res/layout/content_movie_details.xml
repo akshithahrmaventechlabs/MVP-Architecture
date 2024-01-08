@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorViewBg"
+
     android:scrollbars="none"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".movie_details.MovieDetailsActivity"
@@ -72,7 +72,7 @@
                     android:ellipsize="end"
                     android:maxLines="12"
                     android:text="@string/overview"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/movie_title_size"
                     android:textStyle="bold"
                     android:typeface="sans" />
@@ -85,7 +85,7 @@
                     android:layout_marginTop="3dp"
                     android:ellipsize="end"
                     android:lineSpacingExtra="2dp"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/overview_text_size"
                     android:typeface="sans" />
 
@@ -114,7 +114,7 @@
                     android:ellipsize="end"
                     android:maxLines="12"
                     android:text="@string/top_billed_cast"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/movie_title_size"
                     android:textStyle="bold"
                     android:typeface="sans" />
@@ -167,7 +167,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="@string/details"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/movie_title_size"
                     android:textStyle="bold"
                     android:typeface="sans" />
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="@string/homepage"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/overview_text_size"
                     android:typeface="sans" />
 
@@ -196,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="3dp"
                     android:text="@string/tagline"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/overview_text_size"
                     android:typeface="sans" />
 
@@ -214,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="3dp"
                     android:text="@string/Runtime"
-                    android:textColor="@color/colorTitle"
+
                     android:textSize="@dimen/overview_text_size"
                     android:typeface="sans" />
 
